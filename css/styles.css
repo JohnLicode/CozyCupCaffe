@@ -195,6 +195,28 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.about h3 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about h4 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.team-container {
+  display: flex; /* Arranges items in a row */
+  justify-content: center; /* Centers the team members horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 50px; /* Adds space between team members */
+}
+.team-member {
+  text-align: center; /* Centers the text below each image */
+}
+.team-member img {
+  width: 150px; /* Adjust the width of the images */
+  height: 150px; /* Maintain aspect ratio */
+}
 .about p {
   font-size: 18px;
   max-width: 800px;
@@ -225,6 +247,32 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the links */
+}
+
+.footer-nav li {
+  margin: 0 15px; /* Space between items */
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.imgcont{
+  display: flex; /* Arranges items in a row */
+  justify-content: center; /* Centers the team members horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 20px; /* Adds space between team members */
+}
+.icon img {
+  width: 30px;
+  height: 30px;
 }
 /* Contact Form Styling */
 .contact-form h2 {
