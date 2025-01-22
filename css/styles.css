@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 .menu {
-  height: 190vh;
+  height: 170vh;
   width: auto;
   background-color: white;
 }
@@ -151,8 +151,8 @@ nav a:hover {
 .menu h3 {
   font-size: 50px;
   font-family: Hind Madurai, serif;
-  margin-top: 50px;
-  padding-top: 100px;
+  margin-top: 100px;
+  padding-top: 160px;
   text-align: center;
   color: #a74106;
 }
@@ -164,14 +164,15 @@ nav a:hover {
   justify-content: center;
   width: 60vw;
   height: auto;
-  margin: 20px auto;
+  margin: 40px auto;
   color:  #a74106;
+  font-size: 16px;
   
 
 }
 
 .item-container {
-  margin-top: 30px;
+  margin-top: 20px;
   height: 10vh;
   width: auto;
   color: black;
@@ -181,7 +182,7 @@ nav a:hover {
 
 
 .item-container2 {
-  margin-top: 70vh;
+  margin-top: 50vh;
   height: 10vh;
   width: auto;
   color: black;
@@ -197,6 +198,7 @@ nav a:hover {
   margin: 22px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 9px;
+  
 }
 
 .card-image {
@@ -204,6 +206,14 @@ nav a:hover {
   background-color: aqua;
   margin-bottom: 18px;
   background-size: cover;
+}
+
+
+.card-image:hover{
+   transition: 0.8s;
+   transform:scale(1.1);
+   z-index: 2;
+   border-radius: 12px;
 }
 
 .card h2{
@@ -232,6 +242,8 @@ nav a:hover {
   display: flex;
  
 }
+
+
 
 
 .button-31 {
@@ -265,7 +277,9 @@ nav a:hover {
 }
 
 .about {
-  padding: 100px 0;
+  padding-top:15vh ;
+  height: 170vh;
+  width: auto;
   text-align: center;
   background-color: #ede4d6;
 }
