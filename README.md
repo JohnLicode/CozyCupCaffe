@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cozy Cup Café
 
 ## Project Description
@@ -73,3 +74,6 @@ Cozy Cup Café is a modern café website designed to showcase the menu, ambiance
 </div>
 
 
+=======
+# CozyCupCaffe by Libertad and Akamatsu
+>>>>>>> f156bbdef421c300e0b4ba4821a48b1994c9c613
