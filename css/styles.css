@@ -273,12 +273,13 @@ nav a:hover {
   height: 90vh;
   width: auto;
   text-align: center;
-  background-color: #ede4d6;
+  background-color:#e6c574;;
 }
 
 .about h2 {
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 20px;
+  font-family:  Hind Madurai, serif;
 }
 
 .about h3 {
@@ -305,8 +306,9 @@ nav a:hover {
 }
 .about p {
   font-size: 18px;
-  max-width: 800px;
+  max-width: 60vw;
   margin: 0 auto;
+  
 }
 
 .contact {
@@ -317,7 +319,8 @@ nav a:hover {
 }
 
 .contact h2 {
-  font-size: 30px;
+  font-family: Hind Madurai, serif;;
+  font-size: 50px;
   margin-bottom: 20px;
 
 }
@@ -332,9 +335,11 @@ footer {
   background-color: #4c3c32;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: auto;
+  height: 20vh;
 }
 .footer-nav {
+  
   list-style: none;
   padding: 0;
   display: flex;
@@ -342,10 +347,12 @@ footer {
 }
 
 .footer-nav li {
-  margin: 0 15px; /* Space between items */
+  margin: 25px 15px 10px 0px ; /* Space between items */
+ 
 }
 
 .footer-nav a {
+ 
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -363,8 +370,14 @@ footer {
 /* Contact Form Styling */
 
 
+.contact-form {
+  height:60vh;
+  width: auto;
+  padding:auto;
+}
 .contact-form h2 {
-  font-size: 2rem;
+  font-size: 50px;
+  font-family: Hind Madurai, serif;;
   color: #333;
   text-align: center;
   margin: 50px;
@@ -411,10 +424,14 @@ footer {
   background-color:#7e685b;
 }
 /* Map Section */
+
+
+
+
 .map h2 {
   font-size: 2rem;
   color: #333;
-  margin: 20px 0px 20px 0px;
+  
   height: auto;
   text-align: center;
 }
@@ -426,6 +443,7 @@ footer {
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .map iframe {
