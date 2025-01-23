@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 1.5rem;
+}
 /* Reset some default styles */
 body,
 h1,
@@ -20,7 +24,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #ffffffb7;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 10px;
   overflow: hidden;
@@ -104,8 +108,9 @@ nav a:hover {
 
 .hero {
   /*text-align: center;*/
-  padding: 40px 0;
-  background-size: cover;
+  
+  height: 90vh;
+  width: auto;
   color: rgb(255, 255, 255);
 }
 
@@ -131,11 +136,13 @@ nav a:hover {
 
 .cta-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 40px;
   background-color: #4c3c32;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .cta-button:hover {
@@ -158,17 +165,13 @@ nav a:hover {
 }
 
 .coffee_descript {
-  
-
   text-align: center;
   justify-content: center;
   width: 60vw;
   height: auto;
   margin: 40px auto;
-  color:  #a74106;
+  color: #a74106;
   font-size: 16px;
-  
-
 }
 
 .item-container {
@@ -179,7 +182,6 @@ nav a:hover {
   display: flex;
   justify-content: center;
 }
-
 
 .item-container2 {
   margin-top: 50vh;
@@ -198,7 +200,6 @@ nav a:hover {
   margin: 22px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 9px;
-  
 }
 
 .card-image {
@@ -208,21 +209,18 @@ nav a:hover {
   background-size: cover;
 }
 
-
-.card-image:hover{
-   transition: 0.8s;
-   transform:scale(1.1);
-   z-index: 2;
-   border-radius: 12px;
+.card-image:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+  z-index: 2;
+  border-radius: 12px;
 }
 
-.card h2{
+.card h2 {
   margin-left: 15px;
-  font-family: Hind Madurai, serif ;
+  font-family: Hind Madurai, serif;
   font-weight: 700;
   font-size: 25px;
-  
-
 }
 
 .card p {
@@ -235,16 +233,11 @@ nav a:hover {
   color: gold;
   margin: 7px 15px;
   font-size: 16px;
- 
 }
 
 .rate_more {
   display: flex;
- 
 }
-
-
-
 
 .button-31 {
   background-color: #4c3c32;
@@ -254,11 +247,11 @@ nav a:hover {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
-  
+
   outline: none;
   overflow: hidden;
   position: relative;
@@ -268,16 +261,15 @@ nav a:hover {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 30%;
-  
 }
 
 .button-31:hover,
 .button-31:focus {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .about {
-  padding-top:15vh ;
+  padding-top: 15vh;
   height: 170vh;
   width: auto;
   text-align: center;
