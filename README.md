@@ -1,1 +1,1 @@
-# CozyCupCaffe by Libertad
+# CozyCupCaffe by Libertad and Akamatsu
