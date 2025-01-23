@@ -281,6 +281,28 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.about h3 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about h4 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.team-container {
+  display: flex; /* Arranges items in a row */
+  justify-content: center; /* Centers the team members horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 50px; /* Adds space between team members */
+}
+.team-member {
+  text-align: center; /* Centers the text below each image */
+}
+.team-member img {
+  width: 150px; /* Adjust the width of the images */
+  height: 150px; /* Maintain aspect ratio */
+}
 .about p {
   font-size: 18px;
   max-width: 800px;
@@ -297,16 +319,112 @@ nav a:hover {
 .contact h2 {
   font-size: 30px;
   margin-bottom: 20px;
+
 }
 
 .contact p {
   font-size: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 footer {
   background-color: #4c3c32;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px;
+}
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the links */
+}
+
+.footer-nav li {
+  margin: 0 15px; /* Space between items */
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.imgcont{
+  display: flex; /* Arranges items in a row */
+  justify-content: center; /* Centers the team members horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 20px; /* Adds space between team members */
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+/* Contact Form Styling */
+.contact-form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-left: 37%;
+  margin-bottom: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  font-family: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4c3c32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+/* Map Section */
+.map h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.map .map-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
 }
