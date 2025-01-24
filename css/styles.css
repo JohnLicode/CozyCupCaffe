@@ -194,12 +194,20 @@ nav a:hover {
 
 .card {
   background-color: white;
-
   width: 350px;
   height: 415px;
   margin: 22px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 15px, rgba(0, 0, 0, 0.23) 0px 1px 1px;
   border-radius: 9px;
+  transition: 0.7s ease ;
+
+}
+
+.card:hover {
+  width: 375px;
+  height: 435px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 20px 40px, rgba(0, 0, 0, 0.23) 0px 12px 12px;
+  font-size: 18px;
 }
 
 .card-image {
@@ -209,12 +217,14 @@ nav a:hover {
   background-size: cover;
 }
 
+/*
 .card-image:hover {
   transition: 0.8s;
   transform: scale(1.1);
   z-index: 2;
   border-radius: 12px;
 }
+*/
 
 .card h2 {
   margin-left: 15px;
@@ -228,6 +238,8 @@ nav a:hover {
   text-align: left;
   font-size: 15px;
 }
+
+
 
 .ratings {
   color: gold;
